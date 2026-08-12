@@ -18,7 +18,7 @@
         </elementProp>
       </ThreadGroup>
       <hashTree>
-        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config">
+        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
           <stringProp name="delimiter">,</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="filename">smoke.txt</stringProp>
@@ -38,7 +38,7 @@
           <stringProp name="REQUEST_DATA">${user}</stringProp>
           <stringProp name="RESPONSE_DATA">Dummy Sampler used to simulate requests and responses
 without actual network activity. This helps debugging tests.</stringProp>
-          <stringProp name="RESPONSE_TIME">${__Random(50,500)}</stringProp>
+          <stringProp name="RESPONSE_TIME">${__Random(5000,1000)}</stringProp>
           <stringProp name="LATENCY">${__Random(1,50)}</stringProp>
           <stringProp name="CONNECT">${__Random(1,5)}</stringProp>
           <stringProp name="URL"></stringProp>
